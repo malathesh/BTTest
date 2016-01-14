@@ -30,6 +30,7 @@ class ViewController: UIViewController,DZBluetoothSerialDelegate{
     @IBOutlet weak var switchBtn: UISwitch!
     @IBAction func ooff(sender: UISwitch) {
         if switchBtn.on{
+            // Ihave made some changes 
             if serial.connectedPeripheral == nil {
                 
                 let alert = UIAlertController(title: "Not connected", message: "What am I supposed to send this to?", preferredStyle: .Alert)
