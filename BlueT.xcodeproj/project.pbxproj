@@ -14,6 +14,16 @@
 		D046D3001C120C7E000E4A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D046D2FE1C120C7E000E4A20 /* LaunchScreen.storyboard */; };
 		D046D30B1C120C7E000E4A20 /* BlueTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D30A1C120C7E000E4A20 /* BlueTTests.swift */; };
 		D046D3161C120C7E000E4A20 /* BlueTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D3151C120C7E000E4A20 /* BlueTUITests.swift */; };
+		D046D3241C1211D2000E4A20 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046D3231C1211D2000E4A20 /* CoreBluetooth.framework */; };
+		D046D3261C1211E2000E4A20 /* DZBluetoothSerialHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D3251C1211E2000E4A20 /* DZBluetoothSerialHandler.swift */; };
+		D046D3281C1216DE000E4A20 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D3271C1216DE000E4A20 /* ScannerViewController.swift */; };
+		D046D32F1C121C28000E4A20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046D32E1C121C28000E4A20 /* CoreGraphics.framework */; };
+		D046D3311C121C2E000E4A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046D3301C121C2E000E4A20 /* Foundation.framework */; };
+		D046D3331C121C33000E4A20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046D3321C121C33000E4A20 /* UIKit.framework */; };
+		D046D3361C121C40000E4A20 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D046D3351C121C40000E4A20 /* MBProgressHUD.m */; };
+		D046D3391C121CBC000E4A20 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D3371C121CBC000E4A20 /* StartViewController.swift */; };
+		D046D33A1C121CBC000E4A20 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D3381C121CBC000E4A20 /* ConnectViewController.swift */; };
+		D046D33C1C123258000E4A20 /* PreferencesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046D33B1C123258000E4A20 /* PreferencesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,18 @@
 		D046D3111C120C7E000E4A20 /* BlueTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D046D3151C120C7E000E4A20 /* BlueTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTUITests.swift; sourceTree = "<group>"; };
 		D046D3171C120C7E000E4A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D046D3231C1211D2000E4A20 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D046D3251C1211E2000E4A20 /* DZBluetoothSerialHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZBluetoothSerialHandler.swift; sourceTree = "<group>"; };
+		D046D3271C1216DE000E4A20 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		D046D32D1C121C12000E4A20 /* Serial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Serial-Bridging-Header.h"; sourceTree = "<group>"; };
+		D046D32E1C121C28000E4A20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D046D3301C121C2E000E4A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D046D3321C121C33000E4A20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D046D3341C121C40000E4A20 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D046D3351C121C40000E4A20 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D046D3371C121CBC000E4A20 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D046D3381C121CBC000E4A20 /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		D046D33B1C123258000E4A20 /* PreferencesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D046D3331C121C33000E4A20 /* UIKit.framework in Frameworks */,
+				D046D3311C121C2E000E4A20 /* Foundation.framework in Frameworks */,
+				D046D32F1C121C28000E4A20 /* CoreGraphics.framework in Frameworks */,
+				D046D3241C1211D2000E4A20 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +103,10 @@
 		D046D2E91C120C7E000E4A20 = {
 			isa = PBXGroup;
 			children = (
+				D046D3321C121C33000E4A20 /* UIKit.framework */,
+				D046D3301C121C2E000E4A20 /* Foundation.framework */,
+				D046D32E1C121C28000E4A20 /* CoreGraphics.framework */,
+				D046D3231C1211D2000E4A20 /* CoreBluetooth.framework */,
 				D046D2F41C120C7E000E4A20 /* BlueT */,
 				D046D3091C120C7E000E4A20 /* BlueTTests */,
 				D046D3141C120C7E000E4A20 /* BlueTUITests */,
@@ -99,10 +129,18 @@
 			children = (
 				D046D2F51C120C7E000E4A20 /* AppDelegate.swift */,
 				D046D2F71C120C7E000E4A20 /* ViewController.swift */,
+				D046D3271C1216DE000E4A20 /* ScannerViewController.swift */,
+				D046D33B1C123258000E4A20 /* PreferencesTableViewController.swift */,
+				D046D3251C1211E2000E4A20 /* DZBluetoothSerialHandler.swift */,
+				D046D3341C121C40000E4A20 /* MBProgressHUD.h */,
+				D046D3351C121C40000E4A20 /* MBProgressHUD.m */,
+				D046D3371C121CBC000E4A20 /* StartViewController.swift */,
+				D046D3381C121CBC000E4A20 /* ConnectViewController.swift */,
 				D046D2F91C120C7E000E4A20 /* Main.storyboard */,
 				D046D2FC1C120C7E000E4A20 /* Assets.xcassets */,
 				D046D2FE1C120C7E000E4A20 /* LaunchScreen.storyboard */,
 				D046D3011C120C7E000E4A20 /* Info.plist */,
+				D046D32D1C121C12000E4A20 /* Serial-Bridging-Header.h */,
 			);
 			path = BlueT;
 			sourceTree = "<group>";
@@ -256,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D046D33C1C123258000E4A20 /* PreferencesTableViewController.swift in Sources */,
+				D046D33A1C121CBC000E4A20 /* ConnectViewController.swift in Sources */,
 				D046D2F81C120C7E000E4A20 /* ViewController.swift in Sources */,
+				D046D3261C1211E2000E4A20 /* DZBluetoothSerialHandler.swift in Sources */,
+				D046D3361C121C40000E4A20 /* MBProgressHUD.m in Sources */,
 				D046D2F61C120C7E000E4A20 /* AppDelegate.swift in Sources */,
+				D046D3281C1216DE000E4A20 /* ScannerViewController.swift in Sources */,
+				D046D3391C121CBC000E4A20 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BlueT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Filmysphere.com.BlueT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueT/Serial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BlueT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Filmysphere.com.BlueT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueT/Serial-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +533,7 @@
 				D046D31C1C120C7E000E4A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D046D31D1C120C7E000E4A20 /* Build configuration list for PBXNativeTarget "BlueTTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +542,7 @@
 				D046D31F1C120C7E000E4A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D046D3201C120C7E000E4A20 /* Build configuration list for PBXNativeTarget "BlueTUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +551,7 @@
 				D046D3221C120C7E000E4A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
